@@ -1,0 +1,158 @@
+.container-fluid {
+    padding: 10% 5% 0 5%;
+    
+    
+}
+
+.navbar {
+    opacity: 0.8;
+    border-bottom: 4px solid rgb(64, 161, 49);
+}
+
+
+
+
+
+.navbar-brand {
+    margin-left: 18px;
+}
+
+.container {
+    padding-top: 2%;
+    margin-top: 2%;
+
+}
+
+hr {
+    margin-top: 10%;
+    border-style: dotted 30px solid;
+    color: aliceblue;
+
+
+
+}
+
+.whatsapp-img1 {
+    padding-left: 95%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+i {
+    width: 10%;
+    height: auto;
+}
+
+.services {
+    font-size: 400%;
+}
+
+h1 {
+
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    color: beige;
+    transition: 0.5s;
+
+}
+
+h1:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+h2 {
+    color: beige;
+
+}
+
+h3 {
+    color: beige;
+}
+
+p {
+    color: beige;
+}
+
+/*
+#titlename {
+    background-color: rgb(146, 182, 141);
+}*/
+
+
+/*.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+/*@media(max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}*/
+/*.bg-img{
+    overflow: hidden;
+
+}*/
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 4s;
+}
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+/* :root {
+    --animate-delay: 2s;
+  }
+  
+  /* All delay classes will take half the time to start */
+/* :root {
+    --animate-delay: 0.5s;
+  }*/
+/* :root {
+  --animate-duration: 2s;
+}*/
+#myvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+
+
+}
+.change-content::after{
+    content: "";
+    animation: changetext 10s infinite linear; 
+}
+@keyframes changetext{
+    5%{content: " a Comsian";}
+    20%{ content: " Usama Sharif";}
+    55%{content: " a Networker";}    
+    70%{ content: " a Web Designer ";}   
+}
+       
+
+
+
+
+/*     border:1px solid red; */
+
+/*html,body {
+    font-size: 100%;
+     background-image: url('/images/home-page-bg-black.jpg');
+    
+}
